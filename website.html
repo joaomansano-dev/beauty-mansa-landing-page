@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>First Website</title>
+    <link rel="stylesheet" href="styles/website.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+      <div class="nav_bar" id="home">
+        <a href="#home" class="title_logo">
+          <img class="logo" src="img/BeautyMansa.jpg" />
+          <span>Beauty Mansa</span>
+          </a>
+      <div class="nav_links">
+        <a class="nav_link" href="#section--1">Quem Somos</a>
+        <a class="nav_link" href="#section--2"> Serviços Oferecidos </a>
+        <a class="nav_link" href="#section--3">Monstruário</a>
+        <a class="nav_link" href="#section--4">Entre em contato</a>
+      </div>
+    </div>
+
+    <div class="header_section">
+      <div class="header_title">
+        <h1>
+          O lugar para quem preza
+          <span class="glow ">conforto</span>
+          e
+          <span class="glow">qualidade!</span>
+        </h1>
+     
+
+        <div class="more_about"> 
+          <a class="see_more" href="#section--1"> <strong> Veja mais abaixo! 🠗</strong></a>
+        </div>
+       </div>
+
+       <img class="header_image" src="img/header_image.png">
+    </div>
+
+    <div>
+      <div class="section" id="section--1">
+        <p class="section_title"><strong>Quem Somos</strong></p>
+        <div class="section_biografia">
+          <div>
+            <p class="biografia">
+              <em><strong> Há mais de <span class="highlight">20 anos</span> servindo a você! </strong></em>
+            </p>
+          <p class="biografia ">
+              A história do Beauty Mansa
+              começa quando um forte desejo de Valmira em começar a empreender,
+              após trabalhar por mais de 10 anos sendo costureira. <br />
+              Convicta e em busca de qualidade, Valmira   sempre busca
+              oferecer do bom e do melhor!
+          </p>
+        </div>
+
+          <img class="costureira_img" src="img/costureira.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="section--2">
+      <p class="section_title"><strong>Serviços Oferecidos</strong></p>
+      <div class="section_servicos">
+        <div class="servicos" id="servicos--1--vertically">
+          <p class="servicos_subtitle"><strong>Impressão e Xerox</strong></p>
+          <p class="servicos_text">
+            Traga seu documento para fazermos uma impressão! <br />
+            Caso necessário, podemos imprimir via arquivo digital!!
+          </p>
+          <img class="servicos_img" src="img/impressora.png" />
+        </div>
+
+        <div class="servicos" id="servicos--2--horizontally1">
+          <p class="servicos_subtitle">
+            <strong>Plastificação e Encadernação</strong>
+          </p>
+          <p class="servicos_text">
+            Com seu documento em mãos, podemos plastificá-lo e garantir a
+            proteção ideal! <br />
+            Além disso, também oferecemos o serviço de encadernação!
+          </p>
+          <img class="servicos_img" src="img/encadernacao.png" />
+        </div>
+
+        <div class="servicos" id="servicos--3--horizontally2">
+          <p class="servicos_subtitle"><strong>Scanner</strong></p>
+          <p class="servicos_text">
+            Em tempos modernos, garantimos uma digitalização precisa e ideal
+            para você!!<br />
+          </p>
+          <img class="servicos_img" src="img/scanner.png" />
+        </div>
+
+        <div class="servicos" id="servicos--4--vertically">
+          <p class="servicos_subtitle">
+            <strong>Utensílios, Vestuários e Brinquedos</strong>
+          </p>
+          <p class="servicos_text">
+            Em nosso bazar, oferecemos a venda de diversos produtos para sua
+            casa, como por exemplo:<br />
+            - Acessórios para cozinha; <br />
+            - Brincos e óculos; <br />
+            - Brinquedos Infantis. <br />
+            - Roupas Variadas; <br />
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="section" id="section--3">
+        <p class="section_title"><strong>Monstruário</strong></p>
+        <div class="slider">
+          <button class="btn btn--left">&#10094;</button>
+
+          <div class="slider_track">
+            <div class="slide">
+              <img class="itens_venda" src="img/itensVenda/tenis.jpg" />
+            </div>
+            <div class="slide">
+              <img class="itens_venda" src="img/itensVenda/bolsas.jpg" />
+            </div>
+            <div class="slide">
+              <img class="itens_venda" src="img/itensVenda/bones.jpg" />
+            </div>
+            <div class="slide">
+              <img class="itens_venda" src="img/itensVenda/conjuntoMen.jpg" />
+            </div>
+          </div>
+
+          <button class="btn btn--right">&#10095;</button>
+          
+        </div>
+        <div class="dots">  </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="section" id="section--4">
+        <p class="section_title"><strong>Entre em Contato</strong></p>
+        <div class="contato_section">
+          <div class="contato_box" id="contato_box--1">
+            <div class="contato_localizacao">
+              <p class="contato_text_title"><strong>Aonde Estamos</strong></p>
+                <p class="contato_text" id="contato_text--1">
+                  <strong>Endereço:</strong>&nbspRua Geralt Pereira, 898 - Rivia,
+                  Continente - TW, 01234-567 <br />
+                </p>
+                <div class="mapa-container">
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16858886.629529595!2d0!3d-75.05434995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4b9967b3390754b%3A0x6e52be1f740f2075!2sAnt%C3%A1rtida!5e0!3m2!1spt-BR!2sbr!4v1747684161000!5m2!1spt-BR!2sbr" 
+                    width="100%" 
+                    height="200" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                  </iframe>
+                  </div>
+              </div>
+          </div>
+
+        <div class="contato_box" id="contato_box--2">
+          <div class="contato_colunas">
+
+            <div class="contato_horario">
+              <p class="contato_text_title">
+                <strong>Horário de Funcionamento</strong>
+              </p>
+
+              <p class="contato_text"><strong>Segunda:</strong> 09:00 - 16:00</p>
+              <p class="contato_text"><strong>Terça:</strong> 08:00 - 18:00</p>
+              <p class="contato_text"><strong>Quarta:</strong> 08:00 - 18:00</p>
+              <p class="contato_text"><strong>Quinta:</strong> 08:00 - 18:00</p>
+              <p class="contato_text"><strong>Sexta:</strong> 08:00 - 18:00</p>
+              <p class="contato_text"><strong>Sábado:</strong> 09:00 - 15:00</p>
+            </div>
+
+            <div class="coluna_redes">
+              <p class="contato_text_title"><strong>Nossas Redes</strong></p>
+              <div class="redes_sociais">
+                <a href="https://www.facebook.com/teste24132" class="redes_text" target="_blank">
+                  <img class="redes_img" src="img/telefone.png" alt="Telefone">(11)&nbsp1234-5678
+                </a>
+            </div>
+          
+            <div class="redes_sociais">
+              <a href="https://wa.me/5511123456789" class="redes_text" target="_blank">
+              <img class="redes_img" src="img/celular.png" alt="WhatsApp"> (11)&nbsp12345-6789
+              </a>
+            </div>
+
+            <div class="redes_sociais">
+              <a href="https://www.facebook.com/teste24132" class="redes_text" target="_blank">
+                <img class="redes_img" src="img/facebook.png" alt="Facebook">@BeautyMansaFB
+            </a>
+            </div>
+
+            <div class="redes_sociais">
+              <a href="https://www.instagram.com/teste3/" class="redes_text" target="_blank">
+                <img class="redes_img" src="img/instagram.png" alt="Instagram">@BeautyMansaIG
+              </a>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
